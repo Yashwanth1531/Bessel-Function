@@ -106,6 +106,9 @@ variable. Substituting (a) into eq. (A)
 
 ![image](https://user-images.githubusercontent.com/111849605/202916775-2f6bba63-c6d3-427b-a271-5f4f25a00214.png)   (b)
 
+
+
+
 The next step is to split (b) into two equations, one for Ψ(r-t) and the other 
 for ϕ(r). Let..
 
@@ -117,4 +120,78 @@ and an initial condition for (c). Substituting (a) into boundary condition (1)
 
 ![image](https://user-images.githubusercontent.com/111849605/202916857-25467901-9a32-4a32-8ce6-e0e984838731.png)
 
+![image](https://user-images.githubusercontent.com/111849605/202916914-895f8fef-e4f2-4129-bc00-044e6f9f7e1c.png)
 
+![image](https://user-images.githubusercontent.com/111849605/202916978-cfed8d9d-5ebb-434d-9e81-127fdb314762.png)
+
+Similarly, condition (2) gives
+
+![image](https://user-images.githubusercontent.com/111849605/202917007-ed29c56c-9371-4eea-8f6c-ea6f64fdc33d.png)
+
+![image](https://user-images.githubusercontent.com/111849605/202917022-0093bf68-a6c4-482b-a8e7-12b49d201bf8.png)
+
+Now, the initial condition gives
+𝜑(𝑟, 0) = (𝑇𝑖 − 𝑇∞) − ∅(𝑟)          (c-3)
+
+Integrating (d) gives
+∅(𝑟) = −(𝑞_𝑚/4𝑘)*𝑟^2 + 𝑐1𝑙𝑛𝑟 + 𝑐2        (e)
+
+
+Equation (c) is solved by the method of separation of variables. Assume a product 
+solution of the form
+𝜑(𝑟,𝑡) = 𝑅(𝑟)𝜏(𝑡) (f)
+Substituting (f) into (c), separating variables, and setting the resulting equation 
+equal to a constant, ±(λ_k)^2, gives
+
+![image](https://user-images.githubusercontent.com/111849605/202917183-d13aa5b0-274a-4ba2-b427-0407881fb6c8.png)
+
+![image](https://user-images.githubusercontent.com/111849605/202917204-8166cbd1-d77f-4c07-ae46-22ae38c741b7.png)
+
+ince the r-variable has two homogeneous conditions, the plus sign must be 
+selected in (g). Equations (g) and (h) become
+
+![image](https://user-images.githubusercontent.com/111849605/202917221-2104658c-0620-486d-95aa-530f3a4ca9e5.png)
+
+![image](https://user-images.githubusercontent.com/111849605/202917234-ee908b3a-fc90-41c6-9767-7c7a7186b15e.png)
+
+Solutions to the ODE (i) is given by general Bessel representation and (ii) is 
+exponential decay:
+𝑅_𝑘(𝑟) = (𝐴_𝑘)*𝐽0
+(𝜆_𝑘)*r + (𝐵_𝑘)*𝑌0*(𝜆_𝑘)*r               (k)
+
+and 
+𝜏_𝑘(𝑡) = (𝐶_𝑘)exp(−𝛼*𝑡*(𝜆_𝑘)^2)                    (l)
+
+Application to boundary and initial conditions.
+Conditions (c-1) and (c-2) give
+𝐵_𝑘 = 0
+ and
+Bi*𝐽0*(𝜆_𝑘)𝑟0 = (𝜆_𝑘)*𝑟0*𝐽1*(𝜆_𝑘)*𝑟0                   (m)
+Where Bi is the Biot number defined as Bi = hr0 / k. The roots of (m) give the 
+constants λk. Substituting (k) and (l) into (f) and summing all solutions
+
+![image](https://user-images.githubusercontent.com/111849605/202917491-935c8203-346d-494b-88a9-bba8b48b4727.png)
+
+Application of the non-homogeneous initial condition (c-3) yields
+
+![image](https://user-images.githubusercontent.com/111849605/202917526-28953577-6e23-4583-a7f6-d2c00d55b6ce.png)
+
+The characteristic functions J0 ((λ_k)*r) in equation (p) are solutions to (i). This is a 
+Sturm-Liouville equation that guarantees that there are infinitely many eigen 
+values and the function is orthogonal when the boundary conditions are 
+homogeneous w.r.t. weight function w(r) = r.
+Multiplying both sides of (p) by J0((λ_k)*r)*r dr, integrating from r =0 to r =r0 and 
+invoking orthogonality gives a_k
+
+![image](https://user-images.githubusercontent.com/111849605/202917723-7e7599a0-7fc5-4cfa-9c0d-e4181a94436b.png)
+
+Substituting (o) into (q), and evaluate the integral gives,
+
+
+![image](https://user-images.githubusercontent.com/111849605/202917743-a2920a33-547f-44b9-b88f-49dbc5c2b1bf.png)
+
+Complete Solution:
+Hence the complete solution, expressed in dimensionless form, is
+
+![image](https://user-images.githubusercontent.com/111849605/202917779-b8c32fa7-6895-4b59-8f58-c38bb36caf74.png)
+![image](https://user-images.githubusercontent.com/111849605/202917780-b1e98e92-505a-436d-bbbd-0031d36c1542.png)
