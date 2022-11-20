@@ -194,4 +194,4 @@ Complete Solution:
 Hence the complete solution, expressed in dimensionless form, is
 
 ![image](https://user-images.githubusercontent.com/111849605/202917779-b8c32fa7-6895-4b59-8f58-c38bb36caf74.png)
-![image](https://user-images.githubusercontent.com/111849605/202917780-b1e98e92-505a-436d-bbbd-0031d36c1542.png)
+
