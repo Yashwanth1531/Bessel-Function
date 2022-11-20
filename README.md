@@ -62,4 +62,4 @@ The Bessel function of the first kind of mth order is given by:
 
 𝑌𝑚(𝑥) =
 𝐽𝑚(𝑥) cos 𝜋𝑚 − 𝐽−𝑚(𝑥)
-sin 𝜋�
+sin 𝜋m
