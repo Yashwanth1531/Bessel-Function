@@ -58,7 +58,7 @@ form:
 )𝑦 = 0
 The Bessel function of the first kind of mth order is given by:
 
-J_m(x) = 
+J_m(x) = Sum[Divide[Power[\(40)-1\(41),L],Power[2,2l+m]*L!*\(40)m+L\(41)!],{L,0,∞}]*Power[x,2L+m]
 
 𝑌_𝑚(𝑥) =
 𝐽_𝑚(𝑥) cos 𝜋𝑚 − 𝐽_−𝑚(𝑥)
