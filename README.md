@@ -30,3 +30,36 @@ Consider an example ODE:
 𝑥
 2
 𝑦 = 0
+
+In above example problem p(𝑥) and q(𝑥) are undefined at 𝑥 = 0 but we can still 
+apply frobenius method if 𝑥0 is regular singular point of ODE. The solution 
+according to Frobenius is by 𝑦(𝑥) = ∑ 𝑎𝑛𝑥
+𝑛+𝑟 = 𝑥
+𝑟
+(𝑎0 + 𝑎1𝑥 + ⋯ )
+∞
+𝑛=0
+𝑥0 is the regular singular point of 𝑦
+′′ + 𝑝(𝑥)𝑦
+′ + 𝑞(𝑥)𝑦 = 0 if (𝑥 − 𝑥0
+)𝑝(𝑥) and 
+(𝑥 − 𝑥0
+)
+2𝑞(𝑥) exist and has valid Taylor expansion about 𝑥0. The exponent r (may 
+be real or complex) number should be chosen such that 𝑎0 ≠ 0.
+Now, there exists a class of 2
+nd order, linear ODEs with variable coefficients of the 
+form: 
+𝑥
+2𝑦
+′′ + 𝑥𝑦
+′ + (𝑥
+2 − 𝑚2
+)𝑦 = 0
+The Bessel function of the first kind of mth order is given by:
+
+
+
+𝑌𝑚(𝑥) =
+𝐽𝑚(𝑥) cos 𝜋𝑚 − 𝐽−𝑚(𝑥)
+sin 𝜋�
