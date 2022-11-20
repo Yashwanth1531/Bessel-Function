@@ -58,8 +58,19 @@ form:
 )𝑦 = 0
 The Bessel function of the first kind of mth order is given by:
 
-
+J_m(x) = 
 
 𝑌_𝑚(𝑥) =
 𝐽_𝑚(𝑥) cos 𝜋𝑚 − 𝐽_−𝑚(𝑥)
 sin 𝜋m
+
+
+
+
+
+𝛹(𝑟 − 𝑡) = ∑ ak exp(−λk
+2
+αt) 𝐽0
+(λkr).
+∞
+𝑘=1
