@@ -19,3 +19,14 @@ convergence, we use Frobenius method. Frobenius methods masks the point of
 singularity, thereby creating feasible solution at which the power series method 
 fails. Such points are called regular singular points.
 Consider an example ODE:
+
+𝑦
+′′ +
+2
+𝑥
+𝑦
+′ +
+1
+𝑥
+2
+𝑦 = 0
